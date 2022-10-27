@@ -74,6 +74,31 @@ li {
     color: yellow;
 }
 
+/* BLOCK 3 */
+.block3 {
+    display: flex;
+}
+.block3-container {
+    display: flex;
+    width: 1160px;
+    padding-left: 200px;
+    z-index: 1;
+}
+.block3-img {
+    width: 45%;
+    /* margin-left: 100px; */
+}
+
+.block3-content {
+    width: 25%px;
+    box-sizing: border-box;
+}
+
+.block3-flower1 {
+    margin-right: 0px;
+    z-index: 2;
+}
+
 
 
 
