@@ -99,7 +99,31 @@ li {
     z-index: 2;
 }
 
+/* BLOCK 4  */
+.block4-container {
+    width: 1160px;
+    
+}
+.block4-clard-image {
+    height: 366px;
+    width: 366px;
+}
 
+.block4-clard-info-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+.block4-clard-name {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.block4-clard {
+    border: 2px black solid;
+    width: 366px;
+}
 
 
 
