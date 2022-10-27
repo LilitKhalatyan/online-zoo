@@ -1,7 +1,10 @@
 * {
-    margin: 8px;
-
+    margin: 0px;
 }
+header, main, footer {
+    max-width: 1600px;
+}
+
 header {
     display: flex;
     background-color: black;
@@ -26,6 +29,55 @@ li {
     column-gap: 8px;
 }
 
+/* orange button  */
+
+.orange-button {
+    background-color: orange;
+    color: white;
+    width: 298px;
+    height: 54px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.orange-button-radius {
+    background-color: orange;
+    color: white;
+    width: 298px;
+    height: 54px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* BLOCK 2 */
+
+.panda {
+    height: 1600px;
+    width: 780px;
+    z-index: 1;
+}
+.block2-elipse {
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background-color: orange;
+    z-index: 2;
+}
+.block2-text {
+    background-color: aquamarine;
+    color: white;
+    z-index: 3;
+}
+.block2-text-yellow{
+    color: yellow;
+}
+
+
+
+
+
 /* BLOCK 5 */
 
 .block5 {
@@ -45,15 +97,6 @@ li {
 
 }
 
-.block5-part3 {
-    background-color: orange;
-    color: white;
-    width: 298px;
-    height: 54px;
-    border-radius: 25px;
-    text-align: center;
-    justify-content: center;
-}
 .block5-part2 {
     display: flex;
 }
