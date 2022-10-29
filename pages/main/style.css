@@ -224,7 +224,6 @@ li {
   border-radius: 20px;
   /* height: 835px; */
   width: 1160px;
-
   opacity: 52%;
   display: flex;
   flex-direction: column;
@@ -261,25 +260,32 @@ li {
 
 .block5-part2 {
   display: flex;
+  justify-content:space-evenly;
+  padding: 15px;
+  height: 250px;
 }
 .b5-box {
   width: 168px;
   height: 168px;
-  background-color: white;
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+}
+.b5-vector {
+  width: 80px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .b5-widjet1,
 .b5-widjet2,
 .b5-widjet3 {
-  width: 168px;
-  height: 168px;
+  width: 150px;
+  height: 150px;
   background-color: white;
   border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;;
+
 }
 .block5-tytle2 {
   font-size: 36px;
@@ -317,9 +323,11 @@ li {
   border-color: blueviolet;
   border-radius: 5%;
   overflow: hidden;
+  background-color: #F1F3F2;
 }
 .block6-authors {
   display: flex;
+  padding: 5px;
 }
 
 .b6-name {
@@ -330,9 +338,6 @@ li {
 
 .line-scroll {
   width: 598px;
-  height: 4px;
-  background-color: #ffee2e;
-  border-radius: 4px;
   align-self: center;
 }
 
@@ -348,15 +353,55 @@ li {
 
 /* FOOTER */
 footer {
-    height: 200px;
+    height: 443px;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
 }
-
+.footer-container {
+  width: 1100px;
+  border-color: white;
+  align-items: flex-start;
+}
 .footer-block1 {
+  height: 100px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
 }
-
+.form-title {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.footer-input {
+  width: 228px;
+  height: 36px;
+  border-radius: 2px;
+  border-color: orange;
+}
+.footer-submit {
+  width: 129px;
+  height: 42px;
+  border-radius: 5px;
+  border-color: green;
+  background-color: #F1F3F2;
+}
 .footer-block3 {
   display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+/* 
+.footer-designedby {
+  align-self: flex-end;
+} */
+.sm-icon {
+  width: 26px;
+  height: 26px;
+}
+.sm-complite {
+  display: flex;
+  height: 28px;
 }
