@@ -36,6 +36,10 @@ h1 {
   left: 6px;
   top: 19px;
 }
+.logo-text {
+  color: white;
+  text-decoration: none;
+}
 
 li {
   list-style-type: none;
@@ -66,7 +70,8 @@ li {
 /* BLOCK 2 */
 
 .block2 {
-  height: 800px;
+  height: 780px;
+  /* background-image: url("../../assets/images/Giant-panda.png"); */
 }
 .block2-container {
   position: relative;
@@ -393,10 +398,19 @@ footer {
   justify-content: space-between;
   padding-top: 20px;
 }
-/* 
+
+.sm-each{
+  margin-top: 5px;
+}
+.nav-each {
+  color: white;
+  text-decoration: none;
+}
+
 .footer-designedby {
-  align-self: flex-end;
-} */
+  /* align-self: flex-end; */
+  color: white;
+}
 .sm-icon {
   width: 26px;
   height: 26px;
@@ -405,3 +419,22 @@ footer {
   display: flex;
   height: 28px;
 }
+.button:hover {background-color: rgb(245, 160, 3)}
+.button:active {
+  background-color: rgb(23, 158, 23);
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(1px);
+}
+.header-items {color: white}
+.header-items:hover {color: orange}
+
+.footer-submit:hover {color: green; border: green;}
+.footer-submit:active {color: red; border: red;}
+
+.sm-each:active {color: green}
+
+.footer-designedby:active {color: green;}
+
+.nav-each:active {color: orange;}
+
+/* .orange-right:active {src: "../../assets/icons/arrow_elips_green-right.png"} */
