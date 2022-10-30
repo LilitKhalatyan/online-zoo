@@ -1,0 +1,233 @@
+/* ========================== G E N E R A L ========================== */
+
+* {
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+img {
+  width: 100%;
+}
+.body-container {
+  max-width: 1600px;
+}
+/* ========================== B U T T O N S ========================== */
+.button {
+  display: flex;
+  background-color: orange;
+  color: white;
+  width: 298px;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+}
+.orange-button {
+  border-radius: 5px;
+}
+.orange-button-radius {
+  border-radius: 50px;
+}
+
+/* -------------------------- B U T T O N S -------------------------- */
+/* -------------------------- interactive -------------------------- */
+.button:hover {
+  background-color: rgb(245, 160, 3);
+}
+.button:active {
+  background-color: rgb(23, 158, 23);
+  transform: translateY(1px);
+}
+
+/* ========================== H E A D E R ========================== */
+header {
+  background-color: black;
+}
+
+.header-container {
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+h1 {
+  width: 72px;
+  border: 1px solid #fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 650;
+  font-size: 19px;
+  /* line-height: 120%; */
+  text-align: center;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 6px;
+  top: 19px;
+}
+.logo-text {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+.nav-items {
+  display: flex;
+  column-gap: 8px;
+}
+
+/* -------------------------- H E A D E R -------------------------- */
+/* -------------------------- interactive -------------------------- */
+
+.nav-each:active {
+  color: orange;
+}
+.header-items {
+  color: white;
+}
+.header-items:hover {
+  color: orange;
+}
+
+/* ========================== M A I N ========================== */
+
+/* ========================== MAIN - Block1 ========================== */
+.block1 {
+  width: 100%;
+}
+
+/* ========================== MAIN - Block2 ========================== */
+
+.block2 {
+  width: 100%;
+  height: 1482px;
+  display: flex;
+  justify-content: center;
+  background-color: #feceab;
+  align-items: center;
+}
+.block2-container {
+  background-color: #fdfdff85;
+  border-radius: 20px;
+  width: 1060px;
+  height: 1200px;
+  opacity: 52%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 18px;
+}
+.block2-tytle {
+  top: 35px;
+  font-weight: 400;
+  font-size: 40px;
+  color: orange;
+}
+.block2-subtytle {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* .block2-text1 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.block2-text2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: 863px;
+} */
+
+/* -------------------------- MAIN - Block2 -------------------------- */
+/* -------------------------- interactive -------------------------- */
+
+/* ========================== FOOTER ========================== */
+footer {
+  width: 100%;
+  height: 443px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.footer-container {
+  width: 1100px;
+  border-color: white;
+  align-items: flex-start;
+}
+.footer-block1 {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.form-title {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.footer-input {
+  width: 228px;
+  height: 36px;
+  border-radius: 2px;
+  border-color: orange;
+}
+.footer-submit {
+  width: 129px;
+  height: 42px;
+  border-radius: 5px;
+  border-color: green;
+  background-color: #f1f3f2;
+}
+.footer-block3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.sm-each {
+  margin-top: 5px;
+}
+.nav-each {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-designedby {
+  /* align-self: flex-end; */
+  color: white;
+}
+.sm-icon {
+  width: 26px;
+  height: 26px;
+}
+.sm-complite {
+  display: flex;
+  height: 28px;
+}
+/* -------------------------- F O O T E R -------------------------- */
+/* -------------------------- interactive -------------------------- */
+
+.footer-submit:hover {
+  color: green;
+  border: green;
+}
+.footer-submit:active {
+  color: red;
+  border: red;
+}
+
+.sm-each:active {
+  color: green;
+}
+
+.footer-designedby:active {
+  color: green;
+}
